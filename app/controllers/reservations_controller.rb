@@ -14,7 +14,7 @@ class ReservationsController < ApplicationController
 
   # GET /reservations/new
   def new
-    @reservation = Reservation.new
+    @reservation = Reservation.new(:date => Time.now, :time => Time.now.strftime('%H:%M'))
   end
 
   # GET /reservations/1/edit

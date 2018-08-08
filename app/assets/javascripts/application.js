@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require picker
 //= require picker.date
 //= require picker.time

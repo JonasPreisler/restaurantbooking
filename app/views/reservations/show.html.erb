@@ -7,7 +7,7 @@
 
 <p>
   <strong>Time:</strong>
-  <%= @reservation.time %>
+  <%= @reservation.time.strftime('%H:%M') %>
 </p>
 
 <%= link_to 'Edit', edit_reservation_path(@reservation) %> |
